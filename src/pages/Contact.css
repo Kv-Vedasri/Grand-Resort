@@ -1,0 +1,142 @@
+/* Contact.css */
+
+.contact-container {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #000; /* Background set to black */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f1f1f1; /* Default text color changed to light grey for contrast */
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-header h2 {
+    font-size: 3rem;
+    color: #fff; /* Header text color set to white */
+    font-weight: 700;
+}
+
+.contact-header p {
+    font-size: 1.2rem;
+    color: #bbb; /* Subheader text color set to a lighter grey */
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-item {
+    background-color: #333; /* Set the background to dark grey */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Light shadow for contrast */
+    margin-bottom: 20px;
+}
+
+.contact-item h3 {
+    font-size: 1.5rem;
+    color: #00bfff; /* Light blue color for headers */
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.contact-item p {
+    font-size: 1rem;
+    color: #ddd; /* Text color set to a lighter grey */
+    margin: 0;
+}
+
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+    background-color: #333; /* Set the background to dark grey */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Light shadow for contrast */
+}
+
+.contact-form h3 {
+    font-size: 1.5rem;
+    color: #00bfff; /* Light blue color for form header */
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #222; /* Dark background for input fields */
+    border: 1px solid #555; /* Darker border for inputs */
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff; /* Input text color set to white */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #00bfff; /* Focused border color changed to light blue */
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 191, 255, 0.5); /* Light blue shadow */
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 150px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #00bfff; /* Button color set to light blue */
+    border: none;
+    border-radius: 5px;
+    color: #000; /* Button text color set to black for contrast */
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #009acd; /* Darker blue on hover */
+}
+
+.status-message {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #28a745; /* Status message color set to green */
+}
+
+.contact-map {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contact-map h3 {
+    font-size: 1.5rem;
+    color: #fff; /* Map header text color set to white */
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.contact-map iframe {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Light shadow for contrast */
+}

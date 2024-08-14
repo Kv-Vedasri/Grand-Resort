@@ -1,0 +1,13 @@
+.booking {
+    padding: 40px;
+    background-color: #121212;
+    color: #E0E0E0;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+.booking h1 {
+    font-size: 36px;
+    color: #1E88E5;
+    margin-bottom: 20px;
+}
