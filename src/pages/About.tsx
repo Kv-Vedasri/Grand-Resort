@@ -12,13 +12,13 @@ const About: React.FC = () => {
                 <section className="about-section">
                     <h3>Our Story</h3>
                     <p>
-                        Welcome to <span className="highlight">[Harveda Grand Resort]</span>, a haven where luxury and comfort intertwine. Established in <span className="highlight">[2007]</span>, we have been dedicated to providing an unparalleled experience in <span className="highlight">[New York]</span>. Our hotel blends modern amenities with classic elegance, creating a sanctuary for travelers seeking exceptional service and relaxation.
+                        Welcome to <span className="highlight">[Harsh Grand Resort]</span>, a haven where luxury and comfort intertwine. Established in <span className="highlight">[2007]</span>, we have been dedicated to providing an unparalleled experience in <span className="highlight">[New York]</span>. Our hotel blends modern amenities with classic elegance, creating a sanctuary for travelers seeking exceptional service and relaxation.
                     </p>
                 </section>
                 <section className="about-section">
                     <h3>Our Mission</h3>
                     <p>
-                        Our mission at <span className="highlight">[Harveda Grand Resort]</span> is to deliver a warm, inviting environment for each guest. We aim to surpass expectations with our outstanding service, sophisticated accommodations, and personalized experiences that make every stay memorable.
+                        Our mission at <span className="highlight">[Harsh Grand Resort]</span> is to deliver a warm, inviting environment for each guest. We aim to surpass expectations with our outstanding service, sophisticated accommodations, and personalized experiences that make every stay memorable.
                     </p>
                 </section>
                 <section className="about-section">
